@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             CefSettings settingsBrowser = new CefSettings();
             settingsBrowser.Locale = "pt-br";
             Cef.Initialize(settingsBrowser);
-            browser = new ChromiumWebBrowser("http://192.168.0.206:3333");
+            browser = new ChromiumWebBrowser("https://remoto.site");
             this.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
         }
